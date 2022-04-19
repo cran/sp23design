@@ -1,5 +1,8 @@
 exportPattern(analysSP23Design, computeResponseSummary, executeSP23Design, exploreSP23Design,
               generateClinicalTrialData, generateInterimData, generateSP23Design,
               performInterimLook, resetSP23Design)
-importFrom(mvtnorm, pmvnorm)
+importFrom(mvtnorm, pmvnorm, Miwa)
 importFrom(survival, survfit)
+importFrom(stats, constrOptim, optim, pnorm, qnorm, rbinom,
+           rexp, runif, uniroot)
+importFrom(utils, setTxtProgressBar, txtProgressBar)
